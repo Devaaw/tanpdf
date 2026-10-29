@@ -55,14 +55,16 @@
         Viewing, editing, converting, compressing, scanning, signing, OCR, and
         password operations run on your device. Files you open remain in the
         locations you choose, except for temporary working copies created by
-        Android or by the app to complete an operation.
+        Android or by the app to complete an operation. If you choose to convert
+        a live web page to PDF, the Play build loads that page over the network;
+        the resulting PDF is saved on your device.
       </p>
 
       <h2>4. Permissions</h2>
       <ul>
         <li><strong>Camera:</strong> used only when you choose the document scanning feature. You can deny this permission and still use the rest of the app.</li>
         <li><strong>Storage and document access:</strong> used through Android's Storage Access Framework so you can select files and save results. The app does not scan your storage in the background.</li>
-        <li><strong>Network:</strong> The <code>fdroid</code> and <code>opensource</code> builds request no network permission. The <code>playstore</code> build may access the network solely to display advertisements via Google Mobile Ads.</li>
+        <li><strong>Network:</strong> The <code>fdroid</code> and <code>opensource</code> builds request no network permission. The <code>playstore</code> build may access the network to display advertisements via Google Mobile Ads, to load a web page when you choose HTML/URL-to-PDF, and to download optional ML Kit model components for OCR or scanning.</li>
       </ul>
 
       <h2>5. Advertising (Google AdMob)</h2>

@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TAN PDF Editor - Offline-first PDF tools for Android</title>
-  <meta name="description" content="TAN PDF Editor is a private, offline-first Android app for viewing, merging, converting, scanning, signing, and protecting PDF documents.">
+  <title>TAN PDF Editor - PDF editor, scanner, signer, and print studio</title>
+  <meta name="description" content="TAN PDF Editor is an Android PDF workspace for reading, annotating, converting, scanning, signing, protecting, and printing documents. No account. Your files stay on your device.">
   <meta name="theme-color" content="#1e3a8a">
+  <meta property="og:title" content="TAN PDF Editor - PDF editor, scanner, signer, and print studio">
+  <meta property="og:description" content="Read, annotate, convert, scan, sign, protect, and print documents in one private Android app. No account. No document uploads.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://devaaw.github.io/tanpdf/index.html">
+  <meta property="og:image" content="https://devaaw.github.io/tanpdf/assets/icon.png">
   <link rel="icon" href="assets/icon.png" type="image/png">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -17,6 +22,7 @@
         <span>TAN PDF Editor</span>
       </a>
       <nav class="site-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
         <a href="privacy-policy.html">Privacy</a>
         <a href="licenses.html">Licenses</a>
         <a href="mailto:BenCoder57@gmail.com">Support</a>
@@ -29,62 +35,75 @@
       <section class="hero">
         <div>
           <p class="eyebrow">Private by design</p>
-          <h1>PDF work, without the cloud.</h1>
+          <h1>Your PDF workspace, without the cloud.</h1>
           <p class="lead">
-            TAN PDF Editor is an independent Android app for everyday document
-            tasks. View, merge, convert, scan, sign, and protect your files
-            without creating an account or sending documents to a server.
+            TAN PDF Editor brings reading, annotation, conversion, scanning,
+            OCR, print layout, signing, and protection into one Android app.
+            No account, no document uploads, and no unnecessary steps.
           </p>
           <div class="actions">
-            <a class="button primary" href="privacy-policy.html">Read privacy policy</a>
-            <a class="button secondary" href="licenses.html">View licenses</a>
+            <a class="button primary" href="#features">Explore features</a>
+            <a class="button secondary" href="privacy-policy.html">Read privacy policy</a>
           </div>
-          <p class="meta">Android 8.0+ &middot; No account &middot; No app analytics &middot; Ad-supported on Google Play</p>
+          <p class="meta">Android 8.0+ &middot; No account &middot; No document uploads &middot; Ad-supported on Google Play</p>
         </div>
 
         <aside class="hero-card" aria-label="App summary">
           <img src="assets/icon.png" alt="TAN PDF Editor icon" width="116" height="116">
-          <h2>TAN PDF Editor</h2>
-          <p>Offline-first document tools for Android.</p>
+          <h2>One app. The whole workflow.</h2>
+          <p>From a quick signature to a print-ready booklet.</p>
           <ul class="quick-list">
-            <li><span class="dot" aria-hidden="true"></span>Documents stay on your device</li>
-            <li><span class="dot" aria-hidden="true"></span>No app analytics</li>
-            <li><span class="dot" aria-hidden="true"></span>No sign-in required</li>
+            <li><span class="dot" aria-hidden="true"></span>Read, search, and annotate PDFs</li>
+            <li><span class="dot" aria-hidden="true"></span>Convert Word, images, HTML, and scans</li>
+            <li><span class="dot" aria-hidden="true"></span>Organize, compress, and repair files</li>
+            <li><span class="dot" aria-hidden="true"></span>Sign, protect, and print with precision</li>
           </ul>
         </aside>
       </section>
     </div>
 
     <div class="wrap">
-      <section class="section" aria-labelledby="features-title">
+      <section class="section" id="features" aria-labelledby="features-title">
         <div class="section-head">
-          <h2 id="features-title">A focused toolkit</h2>
-          <p>Everyday PDF operations in one lightweight app.</p>
+          <h2 id="features-title">The tools you reach for every day</h2>
+          <p>One clear workspace for reading, creating, organizing, protecting, and printing documents.</p>
         </div>
         <div class="feature-grid">
           <article class="feature">
-            <h3>View and annotate</h3>
-            <p>Read PDFs with zoom, page navigation, highlights, drawings, and notes.</p>
+            <h3>Read and review</h3>
+            <p>Open PDFs with smooth zoom, page navigation, full-text search, and page jump. Highlight, underline, add notes, text boxes, shapes, arrows, or stamps.</p>
           </article>
           <article class="feature">
-            <h3>Merge and split</h3>
-            <p>Combine documents, split files, reorder pages, rotate, extract, or delete pages.</p>
+            <h3>Word documents</h3>
+            <p>Open DOC and DOCX files in the built-in viewer, search inside them, switch between reflow and print layouts, and export DOCX files as clean PDFs.</p>
           </article>
           <article class="feature">
-            <h3>Convert and scan</h3>
-            <p>Turn images into PDFs, export pages as images, or scan paper documents with the camera.</p>
+            <h3>Create and convert</h3>
+            <p>Build PDFs from images, HTML, or a live web page. Export PDF pages as images, or convert DOCX files without an office suite.</p>
           </article>
           <article class="feature">
-            <h3>Text recognition</h3>
-            <p>Extract text with on-device OCR. The open-source builds use Tesseract.</p>
+            <h3>Scan and OCR</h3>
+            <p>Capture receipts, notes, and forms with the camera, improve contrast, and create multi-page PDFs. On-device OCR makes scans searchable, and Extract Text saves text as TXT.</p>
+          </article>
+          <article class="feature">
+            <h3>Merge and organize</h3>
+            <p>Combine PDFs, split by page range, extract pages, reorder, rotate, or delete pages. Compress large files and repair PDFs that other apps cannot open.</p>
+          </article>
+          <article class="feature">
+            <h3>Print Studio</h3>
+            <p>Prepare N-up grids, booklets, saddle-stitch layouts, cards, zines, and cut-and-stack sheets. Control margins, bleed, crop marks, and page order.</p>
           </article>
           <article class="feature">
             <h3>Protect and sign</h3>
-            <p>Add passwords, watermarks, signatures, and flatten completed documents.</p>
+            <p>Add passwords and control printing, copying, or editing permissions. Unlock files you own, sign with a drawn signature, fill forms, flatten, watermark, number pages, and edit metadata.</p>
           </article>
           <article class="feature">
-            <h3>Image utilities</h3>
-            <p>Compress, resize, convert, and remove metadata from images before sharing.</p>
+            <h3>Image tools</h3>
+            <p>Compress, resize, convert, and strip EXIF metadata from images before adding them to a PDF or sharing them.</p>
+          </article>
+          <article class="feature">
+            <h3>A faster workflow</h3>
+            <p>Search every tool, pin favorites, reopen recent files, review history, use dark mode, and work in Arabic or other supported languages with RTL layout.</p>
           </article>
         </div>
       </section>
@@ -94,19 +113,29 @@
           <div>
             <h2 id="privacy-title">Your documents stay yours.</h2>
             <p>
-              The app does not collect document contents or require an account.
-              It does not include analytics SDKs. The Google Play build shows
-              banner ads through Google AdMob; the open-source builds contain no
-              ads and request no network permission.
+              TAN PDF Editor processes documents on your device. It does not
+              require an account, upload your files to a server, or include
+              analytics SDKs. The Google Play build shows banner ads through
+              Google AdMob and uses on-device ML Kit for OCR. The open-source
+              builds contain no ads and request no network permission.
             </p>
           </div>
           <ul class="check-list">
-            <li>Processing happens on your device.</li>
+            <li>No account, profile, or sign-in.</li>
             <li>No cloud upload or remote document storage.</li>
-            <li>No account or profile required.</li>
-            <li>Recent files and settings are stored locally.</li>
-            <li>Ads appear only in the Google Play build.</li>
+            <li>No analytics SDKs or document tracking.</li>
+            <li>Recent files and settings stay local.</li>
+            <li>Ads appear only in the Google Play build; documents are never shared with advertisers.</li>
           </ul>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Offline and online behavior">
+        <div class="notice">
+          <strong>Offline where it matters.</strong> Reading, annotating, merging,
+          splitting, compressing, converting DOCX, scanning, OCR, signing, and
+          printing run on your device. Converting a live web page to PDF is the
+          exception: the Play build needs an internet connection to load that page.
         </div>
       </section>
     </div>
@@ -116,6 +145,7 @@
     <div class="wrap footer-inner">
       <p>&copy; 2026 TAN PDF Editor. Licensed under Apache 2.0.</p>
       <div class="footer-links">
+        <a href="#features">Features</a>
         <a href="privacy-policy.html">Privacy</a>
         <a href="data-deletion.html">Data deletion</a>
         <a href="licenses.html">Licenses</a>
